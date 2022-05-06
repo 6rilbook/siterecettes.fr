@@ -354,9 +354,7 @@ p {
   color: #CA6338;
 }
 
-
-
-@media only screen and (max-device-width : 864px) {
+@media only screen and (max-device-width : 1100px) {
   .cont_principal3 {
     position: absolute;
     height: 100%;
