@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
 
+
+
+
+
 .card preview
 .card2 preview2 
 nav{
@@ -817,6 +821,40 @@ width: 200px;
  .row2 {
   visibility: hidden;
 
+}
+.details {
+  /*background-image: url("./fruit2mini.jpg");*/
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0em 0em  /*rgba(255, 0, 0, 0.384)*/;
+  color: #CFC2B1;
+  flex-direction: column;
+  display: flex;
+    margin: auto;
+    justify-content: left;
+   margin-right: -15%;
+  transform: translate(-50%, -50%);
+  transform-origin: 100% 100%;
+  width: 21em;
+  margin-top: 15%;
+
+}
+
+.expanded2 .details2 {
+  color: #fff;
+  -webkit-animation: slide 0.8s ease-out;
+          animation: slide 0.8s ease-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  height: 100%;
+  top: -427px;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  width: 50%;
+  z-index: 1;
+  background-image: url("./fruit2.jpg");
+  
 }
 }
 
