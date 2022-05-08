@@ -16,7 +16,15 @@ nav{
   font-size: calc(0.9vw + 0.9vh + 0.4vmin);
 }
 
-
+.base {
+  background-color: #040509;
+  color: #CFC2B1;
+  padding: 50px;
+  overflow: hidden;
+  margin-left: 8%;
+  text-align: center;
+  
+}
 
 .card {
   height: 100%;

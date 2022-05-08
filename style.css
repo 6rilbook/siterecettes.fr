@@ -18,8 +18,7 @@ body {
   color: #CFC2B1;
   padding: 50px;
   overflow: hidden;
-  position: absolute;
-  left: 10vw;
+  margin-left: 8%;
   text-align: center;
   
 }
