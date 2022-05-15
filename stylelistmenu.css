@@ -506,7 +506,7 @@ nav {
   transform: translate(-50%, -50%);
   transform-origin: 100% 100%;
   width: 21em;
-  margin-top: 5%;
+  margin-top: 15%;
 
 }
 
@@ -547,7 +547,7 @@ nav {
   font-size: 0.7em;
   font-style: italic;
   padding-left: 2rem;
-
+  text-align: center;
 }
 
 .preview2 .desc2,
@@ -827,6 +827,7 @@ div.expanded2 {
   left: 10vw;
   text-align: center;
 }
+
 
 hr {
   width: 200px;
