@@ -16,13 +16,22 @@ body {
 .base {
   background-color: #040509;
   color: #CFC2B1;
-  padding: 50px;
   overflow: hidden;
   margin-left: 8%;
   text-align: center;
-  
+  width: 20%;
+  height: 100%;
 }
 
+.baseP {
+  background-color: #040509;
+  color: #CFC2B1;
+  overflow: hidden;
+  margin-left: 8%;
+  text-align: center;
+  width: 20%;
+
+}
 
 nav {
 
@@ -150,3 +159,4 @@ ul li:nth-child(5) a:hover{
 .button:hover {
   box-shadow: 1px 1px 15px 5px #CA6338;
 }
+
