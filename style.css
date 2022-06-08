@@ -19,8 +19,9 @@ body {
   overflow: hidden;
   margin-left: 8%;
   text-align: center;
-  width: 20%;
-  height: 100%;
+  width: 60%;
+
+  text-align: center;
 }
 
 .baseP {
@@ -166,3 +167,4 @@ ul li:nth-child(5) a:hover {
 .button:hover {
   box-shadow: 1px 1px 15px 5px #CA6338;
 }
+
