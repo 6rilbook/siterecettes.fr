@@ -351,16 +351,16 @@ p {
     top: 87%;
     scale: 1.4;
     left: 40%;
-    top: 80%;
-    width: 0%
+    top: 91%;
+    width: 0%;
   }
 
   .cont_principal2 {
     position: absolute;
     height: 100%;
-    top: 47%;
+    top: 59%;
     scale: 1.4;
-    width: 0%
+    width: 0%;
   }
 
   .cont_principal {
@@ -368,7 +368,8 @@ p {
     height: 0%;
     top: 7%;
     scale: 1.4;
-    width: 0%
+    width: 0%;
+    left : 40%;
   }
 
 

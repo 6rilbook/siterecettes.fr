@@ -26,25 +26,24 @@
   width: 100%;
 }
 
+
 .details {
-  /*background-image: url("./fruit2mini.jpg");*/
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0em 0em
-    /*rgba(255, 0, 0, 0.384)*/
-  ;
+  background-color: #000;
+  /*background-image: url("./thon.jpg");*/
+  box-shadow: 0em 0em;
   color: #CFC2B1;
   flex-direction: column;
   display: flex;
   margin: auto;
   justify-content: left;
   margin-right: -15%;
+
   transform: translate(-50%, -50%);
   transform-origin: 100% 100%;
   width: 21em;
   margin-top: 15%;
 
 }
-
 
 .preview .details {
 
@@ -844,24 +843,6 @@ hr {
 
   }
 
-  .details {
-    /*background-image: url("./fruit2mini.jpg");*/
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0em 0em
-      /*rgba(255, 0, 0, 0.384)*/
-    ;
-    color: #CFC2B1;
-    flex-direction: column;
-    display: flex;
-    margin: auto;
-    justify-content: left;
-    margin-right: -15%;
-    transform: translate(-50%, -50%);
-    transform-origin: 100% 100%;
-    width: 21em;
-    margin-top: 15%;
-
-  }
 
   .expanded2 .details2 {
     -webkit-animation: slide 0.8s ease-out;
