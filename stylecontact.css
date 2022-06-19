@@ -75,7 +75,7 @@ html {
     text-decoration: none;
     color: #CFC2B1;
     margin-right: 30px;
-    font-size: 120%;
+    font-size: 150%;
   }
   
   .nav-link:hover {
@@ -171,4 +171,14 @@ html {
       visibility: hidden;
   
     }
+
+    .nav-link {
+      text-decoration: none;
+      color: #CFC2B1;
+      margin-right: 30px;
+      font-size: 230%;
+    }
+
+
+
   }

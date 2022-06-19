@@ -447,7 +447,7 @@ p {
   text-decoration: none;
   color: #CFC2B1;
   margin-right: 30px;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .nav-link:hover {
@@ -875,9 +875,9 @@ hr {
     display: flex;
     margin: auto;
     justify-content: left;
-    transform: translate(0%, 0%);
+    transform: translate(42%, 0%);
     transform-origin: 100% 100%;
-    width: 21em;
+    width: 15em;
     margin-top: 20%;
   
   }
@@ -891,9 +891,9 @@ hr {
     display: flex;
     margin: auto;
     justify-content: left;
-    transform: translate(0%, 0%);
+    transform: translate(42%, 0%);
     transform-origin: 100% 100%;
-    width: 21em;
+    width: 15em;
     margin-top: 20%;
   
   }

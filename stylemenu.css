@@ -337,7 +337,7 @@ p {
   text-decoration: none;
   color: #CFC2B1;
   margin-right: 30px;
-  font-size: 230%;
+  font-size: 150%;
 }
 
 .nav-link:hover {
@@ -372,5 +372,11 @@ p {
     left : 40%;
   }
 
+  .nav-link {
+    text-decoration: none;
+    color: #CFC2B1;
+    margin-right: 30px;
+    font-size: 230%;
+  }
 
 }
