@@ -303,7 +303,7 @@ nav {
   display: flex;
   margin: auto;
   justify-content: right;
-  margin-right: 5%;
+
   margin-top: 2vh;
 }
 
@@ -337,7 +337,7 @@ p {
   text-decoration: none;
   color: #CFC2B1;
   margin-right: 30px;
-  font-size: 25px;
+  font-size: 230%;
 }
 
 .nav-link:hover {

@@ -41,7 +41,7 @@ html {
     display: flex;
     margin: auto;
     justify-content: right;
-    margin-right: 5%;
+
     margin-top: 2vh;
   }
   
@@ -75,7 +75,7 @@ html {
     text-decoration: none;
     color: #CFC2B1;
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 120%;
   }
   
   .nav-link:hover {
