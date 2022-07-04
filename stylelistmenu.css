@@ -17,6 +17,7 @@
   overflow: hidden;
   margin-left: 8%;
   text-align: center;
+  width: 0%;
 
 }
 
@@ -25,7 +26,6 @@
 
   width: 100%;
 }
-
 
 .details {
   background-color: #000;
@@ -36,17 +36,14 @@
   display: flex;
   margin: auto;
   justify-content: left;
-
-  transform: translate(100%, -50%);
   transform-origin: 100% 100%;
   width: 21em;
   margin-top: 15%;
+  margin-inline-start: 67%;
 
 }
 
 .preview .details {
-
-
   -webkit-animation: fade 1s ease-in-out;
   animation: fade 1s ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -79,7 +76,7 @@
 }
 
 .title {
-  font-size: 0.7em;
+  font-size: 1.2em;
   font-style: italic;
   padding-left: 2rem;
 }
@@ -87,8 +84,8 @@
 .preview .desc,
 .preview .extra {
   display: none;
-}
 
+}
 
 button:before {
   content: "";
@@ -143,9 +140,6 @@ button:active:before {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   width: 14em;
 }
-
-
-
 
 .preview svg,
 .preview .picture {
@@ -216,7 +210,7 @@ div.expanded {
   width: 50%;
   z-index: 1;
   color: #fff;
-
+  margin-inline-start: 0%;
 }
 
 .expanded .actions {
@@ -323,7 +317,6 @@ div.expanded {
   }
 }
 
-
 #food {
   padding: 5rem 0 10rem 0;
 }
@@ -404,7 +397,6 @@ div.expanded {
   top: 40%;
 }
 
-
 h1 {
   font-family: 'WindSong', cursive;
   font-size: 50px;
@@ -459,9 +451,6 @@ nav {
   margin-top: 2vh;
 }
 
-
-
-
 .card2 {
   height: 100%;
 
@@ -472,19 +461,16 @@ nav {
   /*background-image: url(./fruit2mini.jpg);*/
   background-color: #000;
   box-shadow: 0em 0em
-    /*2em rgba(255, 0, 0, 0.384)*/
-  ;
+    /*2em rgba(255, 0, 0, 0.384)*/;
   color: #CFC2B1;
   flex-direction: column;
   display: flex;
   margin: auto;
   justify-content: left;
-
-  transform: translate(100%, -50%);
   transform-origin: 100% 100%;
   width: 21em;
   margin-top: 15%;
-
+  margin-inline-start: 67%;
 }
 
 
@@ -521,7 +507,7 @@ nav {
 }
 
 .title2 {
-  font-size: 0.7em;
+  font-size: 1.2em;
   font-style: italic;
   padding-left: 2rem;
 }
@@ -550,10 +536,6 @@ button {
   vertical-align: middle;
 }
 
-
-
-
-
 .card2 .desc2 {
   padding: 1rem 2rem;
   order: 99;
@@ -573,9 +555,6 @@ button {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   width: 14em;
 }
-
-
-
 
 .preview2 svg,
 .preview2 .picture2 {
@@ -648,7 +627,7 @@ div.expanded2 {
   left: 0;
   opacity: 0;
   position: absolute;
-
+  margin-inline-start: 0%;
   width: 50%;
   z-index: 1;
   background-image: url("./fruit2.jpg");
@@ -793,7 +772,6 @@ div.expanded2 {
 
 /* collum bar */
 .row2 {
-  width: 300px;
   background-color: #040509;
   height: 100%;
   color: #CFC2B1;
@@ -802,6 +780,7 @@ div.expanded2 {
   position: absolute;
   left: 10vw;
   text-align: center;
+  
 }
 
 
@@ -829,7 +808,7 @@ hr {
   animation-fill-mode: forwards;
   opacity: 0;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  
+
 }
 
 
@@ -847,22 +826,24 @@ hr {
   opacity: 0;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
 .expanded2 .plus2 {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
+
 /*~~~~~~~~~~~~~~~~~*/
 
 
 @media only screen and (max-device-width : 1100px) {
 
-  
+
   .row2 {
     visibility: hidden;
 
   }
 
-  footer{
+  footer {
     visibility: hidden;
   }
 
@@ -872,7 +853,7 @@ hr {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     height: 100%;
-    top: -427px;
+    top: -200px;
     justify-content: center;
     left: 0;
     opacity: 0;
@@ -887,18 +868,18 @@ hr {
   .details2 {
     /*background-image: url(./fruit2mini.jpg);*/
     background-color: #000;
-    box-shadow: 0em 0em
-      /*2em rgba(255, 0, 0, 0.384)*/;
+    box-shadow: 0em 0em;
+    /*2em rgba(255, 0, 0, 0.384);*/
     color: #CFC2B1;
     flex-direction: column;
     display: flex;
-    margin: auto;
     justify-content: left;
-    transform: translate(42%, 0%);
     transform-origin: 100% 100%;
     width: 15em;
+
+    margin: 0;
     margin-top: 20%;
-  
+    margin-left: 40px;
   }
 
   .details {
@@ -908,16 +889,99 @@ hr {
     color: #CFC2B1;
     flex-direction: column;
     display: flex;
-    margin: auto;
     justify-content: left;
-    transform: translate(42%, 0%);
     transform-origin: 100% 100%;
     width: 15em;
+
+    margin: 0;
     margin-top: 20%;
+    margin-left: 40px;
+    
+  }
+
+  .extra{
+    margin-top: 25px;
+  }
   
+  .extra2{
+    margin-top: 25px;
   }
 }
 
 h6 {
   font-size: 60%;
+}
+
+
+@media only screen and (max-device-width : 424px) {
+
+  .details2 {
+    /*background-image: url(./fruit2mini.jpg);*/
+    background-color: #000;
+    box-shadow: 0em 0em;
+    /*2em rgba(255, 0, 0, 0.384);*/
+    color: #CFC2B1;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    transform-origin: 100% 100%;
+    width: 15em;
+
+    margin: 0;
+    margin-top: 20%;
+
+  }
+
+  .details {
+    background-color: #000;
+    /*background-image: url("./thon.jpg");*/
+    box-shadow: 0em 0em;
+    color: #CFC2B1;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    transform-origin: 100% 100%;
+    width: 15em;
+
+    margin: 0;
+    margin-top: 20%;
+
+    
+  }
+
+  .row2 {
+    background-color: #040509;
+    height: 100%;
+    color: #CFC2B1;
+    padding: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    text-align: center;
+
+  }
+}
+
+@media only screen and (min-device-width : 1025px) {
+
+  .base {
+    background-color: #040509;
+    color: #CFC2B1;
+    padding: 50px;
+    overflow: hidden;
+    margin-left: 8%;
+    text-align: center;
+    width: 94%;
+  }
+  .row2 {
+    background-color: #040509;
+    height: 100%;
+    color: #CFC2B1;
+    padding: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 10vw;
+    text-align: center;
+    width: 300px;
+  }
 }

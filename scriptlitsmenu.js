@@ -29,8 +29,6 @@ close.addEventListener("click", event => {
   card.classList.add("preview");
 });
 
-
-
 function expand2() {
   card2.classList.remove("preview2");
   card2.classList.add("expanded2");
