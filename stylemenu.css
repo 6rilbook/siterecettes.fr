@@ -21,22 +21,19 @@
 .cont_principal4 {
   position: absolute;
   left: 10%;
-  margin-top: 33%;
+  margin-top: 35%;
 }
 
 .cont_principal5 {
   position: absolute;
   left: 40%;
-  margin-top: 33%;
+  margin-top: 35%;
 }
 
-.cont_central1 {
-  position: absolute;
-  width: 100%;
-  right: 30%;
-  top: 0%;
+/*.cont_central1 {
+  
 
-}
+}*/
 
 
 .cont_modal {
@@ -357,44 +354,44 @@ p {
 }
 
 @media only screen and (max-device-width : 1100px) {
+  .test{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .cont_principal5 {
-    position: absolute;
-    height: 100%;
-    left: 40%;
-    top: 190%;
-    width: 0%;
-  }
-  .cont_principal4 {
-    position: absolute;
-    height: 100%;
-    left: 40%;
-    top: 140%;
-    width: 0%;
+    position: relative;
+    left: 0;
+    margin-top: 50px;
   }
 
+  .cont_principal4 {
+    position: relative;
+    left: 0;
+    margin-top: 50px;
+  }
+
+
   .cont_principal3 {
-    position: absolute;
-    height: 100%;
-    left: 40%;
-    top: 112%;
-    width: 0%;
+    position: relative;
+    left: 0;
+    margin-top: 0;
   }
 
   .cont_principal2 {
-    position: absolute;
-    height: 100%;
-    top: 59%;
-    width: 0%;
+    position: relative;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
   }
 
   .cont_principal {
-    position: absolute;
-    height: 0%;
-    top: 7%;
-
-    width: 0%;
-    left : 40%;
+    position: relative;
+    left: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 
   .nav-link {
@@ -403,5 +400,40 @@ p {
     margin-right: 30px;
     font-size: 230%;
   }
+
+}
+
+@media only screen and (min-device-width : 1100px) and (max-device-width : 1400px) {
+  .cont_principal {
+    position: absolute;
+  
+    left: 10%;
+    margin-top: 7%;
+  }
+  
+  .cont_principal2 {
+    position: absolute;
+    left: 40%;
+    margin-top: 7%;
+  }
+  
+  .cont_principal3 {
+    position: absolute;
+    left: 70%;
+    margin-top: 7%;
+  }
+  
+  .cont_principal4 {
+    position: absolute;
+    left: 10%;
+    margin-top: 47%;
+  }
+  
+  .cont_principal5 {
+    position: absolute;
+    left: 40%;
+    margin-top: 47%;
+  }
+  
 
 }
