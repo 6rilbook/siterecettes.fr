@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=WindSong&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="nav.css">
   <link rel="shortcut icon" type="image/x-icon" href="logo16x16.jpg"/>
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -30,13 +31,23 @@
 <body>
 
   <nav>
-    <a href="./index.html" class="nav-link">Accueil</a>
-    <a href="./indexlistmenu.html" class="nav-link">plâts à la une</a>
-    <a href="./indexmenu.html" class="nav-link">Recettes</a>
-    <a href="./contact.html" class="nav-link">Contact</a>
-  </nav>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="./index.html">Acceuil</a></li>
+        <li><a href="./indexmenu.html">Recettes</a></li>
+        <li><a href="./indexlistmenu.html">Plâts à la une</a></li>
+        <li><a href="./tempsfort.html">Temps fort</a></li>
+        <li><a href="./contact.html">Contact</a></li>
 
-  <div class="baseP" style="width: auto; margin-top: 3%;margin-right: 7%;">
+    </ul>
+</nav>
+<script src="nav2.js"></script>
+
+  <div class="baseP" style="width: auto; padding-top: 8%;margin-right: 7%;">
     <h1>Parcours<h1>
         <hr>
         <h2>De Mr_6ril</h2>

@@ -14,6 +14,8 @@
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="shortcut icon" type="image/x-icon" href="logo16x16.jpg" />
+  <link rel="stylesheet" href="nav.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
 
 </head>
@@ -41,14 +43,24 @@
   <body>
 
     <nav>
-      <a href="./index.html" class="nav-link">Accueil</a>
-      <a href="./indexlistmenu.html" class="nav-link">plâts à la une</a>
-      <a href="./parcours.html" class="nav-link">Parcours</a>
-      <a href="./contact.html" class="nav-link">Contact</a>
-    </nav>
+      <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+      <ul class="nav-links">
+          <li><a href="./index.html">Acceuil</a></li>
+          <li><a href="./indexlistmenu.html">Plâts à la une</a></li>
+          <li><a href="./parcours.html">Parcours</a></li>
+          <li><a href="./tempsfort.html">Temps fort</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+  
+      </ul>
+  </nav>
+
 
 <head>
-  <div class="test">
+  <div id="coucou" class="test">
     <div class="cont_principal">
       <div class="cont_central1">
         <div class="cont_modal1 cont_modal_active1 ">
@@ -84,8 +96,8 @@
                 <a target="_blank" href="recette1.html"><i class="material-icons">&#xE313</i></a>
               </div>
             </div>
-            <div class="cont_btn_open_dets">
-              <a href="recette1.html"><i class="material-icons">&#xE314;</i></a>
+            <div id="testoo" class="cont_btn_open_dets">
+              <a href="recette1.html"><i  class="material-icons">&#xE314;</i></a>
             </div>
           </div>
         </div>
@@ -99,7 +111,7 @@
         <div class="cont_modal1 cont_modal_active1 ">
           <div class="cont_photo">
             <div class="cont_img_back">
-              <img src="./fruit2mini.jpg" alt="" />
+              <img src="./fruit2mini.jpeg" alt="" />
             </div>
             <div class="cont_mins">
               <div class="sub_mins">
@@ -124,8 +136,8 @@
                 </div>
               </div>
             </div>
-            <div class="cont_btn_open_dets">
-              <a href="recette2.html"><i class="material-icons">&#xE314;</i></a>
+            <div class="cont_btn_open_dets2">
+              <a href="recette2.html"><i class="material-icons iconASupr">&#xE314;</i></a>
             </div>
           </div>
         </div>
@@ -160,8 +172,8 @@
                 </div>
               </div>
             </div>
-            <div class="cont_btn_open_dets">
-              <a href="recette3.html"><i class="material-icons">&#xE314;</i></a>
+            <div class="cont_btn_open_dets3">
+              <a href="recette3.html"><i class="material-icons iconASupr">&#xE314;</i></a>
             </div>
           </div>
         </div>
@@ -195,8 +207,8 @@
                 </div>
               </div>
             </div>
-            <div class="cont_btn_open_dets">
-              <a href="recetteUne1.html"><i class="material-icons">&#xE314;</i></a>
+            <div class="cont_btn_open_dets4">
+              <a href="recetteUne1.html"><i class="material-icons iconASupr">&#xE314;</i></a>
             </div>
           </div>
         </div>
@@ -230,8 +242,8 @@
               </div>
             </div>
           </div>
-          <div class="cont_btn_open_dets">
-            <a href="recetteUne2.html"><i class="material-icons">&#xE314;</i></a>
+          <div class="cont_btn_open_dets5">
+            <a href="recetteUne2.html"><i class="material-icons iconASupr">&#xE314;</i></a>
           </div>
         </div>
       </div>
@@ -247,3 +259,4 @@
 
 </html>
 
+  <script src="nav.js"></script>

@@ -6,9 +6,6 @@
   padding: 0;
 }
 
-:root {
-  font-size: calc(0.9vw + 0.9vh + 0.4vmin);
-}
 
 .base {
   background-color: #040509;
@@ -37,8 +34,8 @@
   justify-content: left;
   transform-origin: 100% 100%;
   width: 21em;
-  margin-top: 5%;
-
+  padding-top: 5%;
+  font-size: calc(0.9vw + 0.9vh + 0.4vmin);
 }
 
 .preview .details {
@@ -446,7 +443,7 @@ nav {
   display: flex;
   margin: auto;
   justify-content: right;
-  margin-top: 2vh;
+  padding-top: 1%;
 }
 
 .card2 {
@@ -468,7 +465,7 @@ nav {
   transform-origin: 100% 100%;
   width: 21em;
   margin-top: 15%;
-
+  font-size: calc(0.9vw + 0.9vh + 0.4vmin);
 }
 
 
@@ -532,6 +529,7 @@ button {
   transition-duration: 0.2s;
   transition-property: color;
   vertical-align: middle;
+  font-size: calc(0.7vw + 0.6vh + 0.4vmin);
 }
 
 .card2 .desc2 {
@@ -892,7 +890,7 @@ hr {
     width: 15em;
 
     margin: 0;
-    margin-top: 20%;
+    padding-top: 20%;
     margin-left: 40px;
     
   }
@@ -942,7 +940,7 @@ h6 {
     width: 15em;
 
     margin: 0;
-    margin-top: 20%;
+    padding-top: 20%;
 
     
   }
