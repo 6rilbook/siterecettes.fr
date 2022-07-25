@@ -12,6 +12,13 @@ body {
   padding: 0;
 }
 
+.personnetemps {
+  font-size: 30px;
+ }
+
+.imgWidht {
+  width: 35%;
+}
 
 .base {
   background-color: #040509;
