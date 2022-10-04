@@ -30,12 +30,10 @@
   margin-top: 35%;
 }
 
-
-
 .cont_principal6 {
-left: 70%;
-margin-top: 35%;
-position: absolute;
+  left: 70%;
+  margin-top: 35%;
+  position: absolute;
 }
 
 .cont_principal7 {
@@ -50,13 +48,17 @@ position: absolute;
   position: absolute;
 }
 
-
 .cont_principal9 {
   left: 70%;
   margin-top: 63%;
   position: absolute;
 }
 
+.cont_principal10 {
+  left: 10%;
+  margin-top: 75%;
+  position: absolute;
+}
 
 .cont_modal {
   position: relative;
@@ -380,19 +382,25 @@ p {
 }
 
 @media only screen and (max-device-width : 1100px) {
-  .test{
+  .test {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
 
+  .cont_principal10 {
+    position: relative;
+    left: 0;
+    margin-top: 50px;
+  }
 
   .cont_principal9 {
     position: relative;
     left: 0;
     margin-top: 50px;
   }
+
   .cont_principal8 {
     position: relative;
     left: 0;
@@ -458,31 +466,31 @@ p {
     left: 10%;
     margin-top: 7%;
   }
-  
+
   .cont_principal2 {
     position: absolute;
     left: 40%;
     margin-top: 7%;
   }
-  
+
   .cont_principal3 {
     position: absolute;
     left: 70%;
     margin-top: 7%;
   }
-  
+
   .cont_principal4 {
     position: absolute;
     left: 10%;
     margin-top: 47%;
   }
-  
+
   .cont_principal5 {
     position: absolute;
     left: 40%;
     margin-top: 47%;
   }
-  
+
   .cont_principal6 {
     position: absolute;
     left: 70%;
@@ -502,6 +510,12 @@ p {
   }
 
   .cont_principal9 {
+    position: absolute;
+    left: 70%;
+    margin-top: 87%;
+  }
+
+  .cont_principal10 {
     position: absolute;
     left: 70%;
     margin-top: 87%;
